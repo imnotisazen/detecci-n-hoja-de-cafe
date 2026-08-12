@@ -38,8 +38,8 @@ st.write(
 def cargar_modelo():
 
     return tf.keras.models.load_model(
-        "modelo_cafe.keras"
-    )
+    "modelo_cafe.h5"
+)
 
 
 modelo = cargar_modelo()
